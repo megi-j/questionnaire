@@ -1,3 +1,4 @@
+/* first page */
 .container {
     max-width: 1920px;
     width: 100%;
@@ -50,4 +51,86 @@
 .photo img {
     text-align: center;
     position: absolute;
+}
+
+/* second page */
+.secondPageContainer {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+
+}
+.leftSide {
+    width: 50%;
+    background-color: #fff;
+
+}
+.rightSide {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title {
+    font-size: 64px;
+    color: #FE3B1F;
+}
+.box {
+    height: 606px;
+    width: 705px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+
+.box div p {
+    color: #fff;
+    width: 400px;
+    border: 1px solid red;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    border: 1px solid black;
+}
+input {
+    width: 100%;
+    height: 54px;
+    margin-bottom: 37px;
+}
+.submit {
+    display: flex;
+}
+.page {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background-color: red;
+    opacity: 0.2;
+}
+.red {
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.next, .prev {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+    font-weight: bold;
 }
