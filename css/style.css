@@ -54,7 +54,7 @@
 }
 
 /* second page */
-.secondPageContainer {
+.secondPageContainer, .thirdPageContainer, .fourthPageContainer {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -88,23 +88,25 @@
     align-items: center;
     justify-content: space-around;
     border: 1px solid blue;
+    
 }
 
-.box div p {
+.aboutRedberry {
     color: #fff;
     width: 400px;
     border: 1px solid red;
 }
-form {
+.form {
     display: flex;
     flex-direction: column;
     width: 455px;
     border: 1px solid black;
+    
 }
-input {
+.experienceDuration, #name, #lname, #email, #number {
     width: 100%;
     height: 54px;
-    margin-bottom: 37px;
+    margin-top: 37px;
 }
 .submit {
     display: flex;
@@ -133,4 +135,26 @@ input {
     text-align: center;
     color: red;
     font-weight: bold;
+    cursor: pointer;
+}
+/* third page */
+.addLanguage {
+    margin-top: 25px;
+}
+.languages {
+    border: 1px solid red;
+    width: 70%;
+    
+}
+.newList {
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* fourth page */
+#when, #date, #covidVacine, #dateVacine {
+    display: none;
 }
