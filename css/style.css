@@ -54,7 +54,7 @@
 }
 
 /* second page */
-.secondPageContainer, .thirdPageContainer, .fourthPageContainer {
+.secondPageContainer, .thirdPageContainer, .fourthPageContainer, .fifthPageContainer, .submitPage {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -157,4 +157,43 @@
 /* fourth page */
 #when, #date, #covidVacine, #dateVacine {
     display: none;
+}
+
+/* fifth page */
+
+/* submit page */
+.submitPage {
+    background-color: black;
+}
+.parentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 395px;
+    margin-left: 40%;
+}
+.submitBox {
+    background-color: #FE3B1F;
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.submitBox p, .goBack p{
+    color: #fff;
+    
+}
+.goBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.goBack p {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
 }
